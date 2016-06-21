@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile-First</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCx8PTNnnCEi8ElNNiaqXJ3leFwpKsTwck"></script>
+	<script type="text/javascript" src = "js/map.js"></script>
+	<script type="text/javascript" src = "js/mobfirst.js"></script>
+	<meta charset="UTF-8">
+
+</head>
+<body onload = "f()" >
+
+	<header>
+		  	<nav class="header_nav">
+				    <ul>
+				        <li>
+				        	<a href="#">Home</a>
+				        </li>
+				        <li>
+				        	<a href="#first-bicycle">Bicycles</a>
+				        </li>
+				        <li>
+				        	<a href="#accessories">Accessories</a>
+				        </li>
+				        <li>
+				        	<a href="todo.html" target="_blanck">ToDoList</a>
+				        </li>
+				        <li>
+				        	<a href="list-bootstrap.html" target="_blanck">Bootstrap-List</a>
+				        </li>
+				        <li>
+				        	<a href="#contact">Contact</a>
+				        </li>
+					</ul>
+    		</nav>
+	</header>
+			
+		
+	
+	<section id = "first_section">
+
+			
+	
+				<img id = "big-photo" src="img/7.jpg">
+
+					<div class = "small-photo">
+						<img  src="img/2.jpg" onmouseover = "mouseover1()" onMouseOut= "this.src='img/2.jpg'">
+					</div>
+					<div class = "small-photo">
+						<img  src="img/3.jpg"  onmouseover = "mouseover2()"  onMouseOut= "this.src='img/3.jpg'">
+					</div>
+					<div class = "small-photo">
+						<img  src="img/4.jpg" onmouseover = "mouseover3()" onMouseOut= "this.src='img/4.jpg'">
+					</div>
+					<div class = "small-photo">
+						<img  src="img/5.jpg" onmouseover = "mouseover4()" onMouseOut= "this.src='img/5.jpg'">
+					</div>
+					<div class = "small-photo">
+						<img src="img/6.jpg"  onmouseover = "mouseover5()" onMouseOut= "this.src='img/6.jpg'">
+					</div>
+					<div class = "small-photo">
+						<img src="img/8.jpg"  onmouseover = "mouseover6()"  onMouseOut= "this.src='img/8.jpg'">
+					</div>
+	</section>
+
+
+	<article id = "first_article">
+
+		<h1 id="first-bicycle">Best Bicycle</h1>
+
+		<section>
+			<p>Specialized Fatboy(Blue)</p>
+			<p>Price: 1500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-fatboy-240489-11.jpg" >
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Specialized Fatboy(White)</p>
+			<p>Price: 1500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-fatboy-240489-1.jpg" >
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Specialized Sirrus Sport</p>
+			<p>Price: 500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-sirrus-sport-copy-236763-1.jpg">
+			<input type = "number" id="inp2" >
+			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		
+		<section>
+			<p>Specialized Sirrus Sport</p>
+			<p>Price: 500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/specialized-sirrus-sport-	copy-236763-11.jpg">
+			<input type = "number" id="inp3" >
+			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		<section>
+			<p>Cannondal Quick 5</p>
+			<p>Price: 450$</p>
+			<img src = "http://bikeam.com/images/library/zoom/cannondale-quick-5-copy-237596-11.jpg" >
+
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Cannondale SuperSix</p>
+			<p>Price: 2500$</p>
+			<img src = "http://bikeam.com/images/library/zoom/cannondale-supersix-evo-hi-mod-team-copy-237264-1.jpg">
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>BMC Granfondo GF01 Disc</p>
+			<p>Price: 350$</p>	
+			<img src = "http://bikeam.com/images/library/zoom/bmc-granfondo-gf01-disc-ultegra-di2-239387-13.jpg">
+			<input type = "number" id="inp2" >
+			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		
+		<section>
+			<p>Specialized Venge Pro ViAS</p>
+			<p>Price: 8500$</p>	
+			<img src = "http://bikeam.com/images/library/zoom/specialized-venge-pro-vias-236802-1.jpg">
+			<input type = "number" id="inp3" >
+			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		<section>
+			<p>BMW 2016 model</p>
+			<p>Price: 15500$</p>
+			<img src = "http://www.log.com.tr/wp-content/uploads/2016/03/bmw-shows-the-2016-bicycle-line-up_5-1000x562.jpg">
+
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>BMW BOOM!!!</p>
+			<p>Price: 25700$</p>
+			<img src = "http://roa.h-cdn.co/assets/cm/14/47/980x551/546b0f3d3cad5_-_bmw-mountainbike-lg.jpeg">
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		
+
+	</article>
+
+
+	<article id = "second_article">
+
+		<h1 id = "accessories">Accessories</h1>
+
+		<section>
+			<p>Kask Road Helmet</p>
+			<p>Price: 100$</p>
+			<img src = "http://www.wigglestatic.com/product-media/5360066738/Kask-Mojito-Road-Helmet-Road-Helmets-Black-Grey-2015-MBLGRL-1.jpg?w=1800&h=1800&a=7" >
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Giro Synthe Helmet</p>
+			<p>Price: 100$</p>
+			<img src = "http://www.wigglestatic.com/product-media/5360103165/Giro-Synthe-Helmet-Road-Helmets-White-Yellow-2016-GIHSYN89S6-0.jpg?w=700&h=700&a=7" >
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Giro Atmos 2 Road Helmet</p>
+			<p>Price: 500$</p>
+			<img src = "http://www.wigglestatic.com/product-media/5360103425/Giro-Atmos-2-Road-Helmet-Road-Helmets-Blue-Black-2015-GIHAT21BS5.jpg?w=2000&h=2000&a=7">
+			<input type = "number" id="inp2" >
+			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		
+		<section>
+			<p>800ml Water Bottle</p>
+			<p>Price: 5$</p>
+			<img src = "http://www.wigglestatic.com/product-media/5110000435/Pro_bottle_800ml.jpg?w=1300&h=1300&a=7">
+			<input type = "number" id="inp3" >
+			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		<section>
+			<p>Wiggle Water Bottle 800ml</p>
+			<p>Price: 2$</p>
+			<img src = "http://www.wigglestatic.com/product-media/5360114041/Wiggle-Water-Bottle-800ml-Water-Bottles-Graphite-SS16-0142024.jpg?w=2000&h=2000&a=7" >
+
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Garmin Forerunner 235</p>
+			<p>Price: 250$</p>
+			<img src = "http://www.wigglestatic.com/product-media/5360110727/Garmin-Forerunner-235-GPS-Run-Watch-with-Integrated-HRM-GPS-Running-Computers-Black-Grey-AW15-6.jpg?w=2000&h=2000&a=7">
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Garmin Forerunner 230</p>
+			<p>Price: 350$</p>	
+			<img src = "http://www.wigglestatic.com/product-media/5360110725/Garmin-Forerunner-230-GPS-Running-Watch-GPS-Running-Computers-Yellow-Black-AW15-010-03717-52.jpg?w=2000&h=2000&a=7">
+			<input type = "number" id="inp2" >
+			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		
+		<section>
+			<p>Topeak Joe Blow Sport II</p>
+			<p>Price: 230$</p>	
+			<img src = "http://www.wigglestatic.com/product-media/5360013205/topeak-tjb-s5-zoom.jpg?w=1000&h=1000&a=7">
+			<input type = "number" id="inp3" >
+			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+		</section>
+		<section>
+			<p>LifeLine  High Pressure </p>
+			<p>Price: 60$</p>
+			<img src = "http://www.wigglestatic.com/product-media/5360077191/lifeline-performance-track-pump.jpg?w=2000&h=2000&a=7">
+
+			<input type = "number" id="inp0"  >
+			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		<section>
+			<p>Lezyne Micro Drive 400XL</p>
+			<p>Price: 49$</p>
+			<img src = "http://www.wigglestatic.com/product-media/5360107381/Micro-Strip.jpg?w=1000&h=1000&a=7">
+			<input type = "number" id="inp1" >
+			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+		</section>
+
+		
+
+	</article>
+
+
+	<article id = "third_article">
+
+			<h1 id="contact">Contact</h1>
+			<section>	
+				<h2>Contact me</h2>
+					<div id="form-div">
+					    <form class="form" id="form1">
+					      <p class="name">
+					        <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
+					      </p>
+					      
+					      <p class="email">
+					        <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" />
+					      </p>
+					      
+					      <p class="text">
+					        <textarea name="text" class="feedback-input" id="comment" placeholder="Comment"></textarea>
+					      </p>
+					      
+					      
+					      <div class="submit">
+					        <input type="submit" value="SEND" id="button-blue"/>
+					        <div class="ease"></div>
+					      </div>
+					    </form>
+					  </div>		
+
+
+			</section>
+
+			<section>
+					<h2>You can find us</h2>
+					
+
+					<div id = "googleMap">
+						
+					</div>
+
+			</section>
+
+
+
+	</article>
+
+	
+		<footer>
+
+			<section>
+					<h3>Section 3</h3>
+					<ul>
+						<li>
+							<p>Lorem</p>
+						</li>
+						<li>
+							<p>Lorem</p>
+						</li>
+						<li>
+							<p>Lorem</p>
+						</li>
+						<li>
+							<p>Lorem</p>
+						</li>
+					</ul>
+			</section>
+
+			<section>
+					<h3>Section 2</h3>
+						<ul class="social-buttons" id="social">
+						  <li>
+						    <a href="#" class="twitter">
+						    	<img src="img/twitter-icon.png">
+						    </a>
+						  </li>
+						  <li>
+						    <a href="#" class="facebook">
+						    	<img src="img/facebook-icon.png">
+						    </a>
+						  </li>
+						  <li>
+						    <a href="#" class="instagram">
+						    	<img src="img/instagram-icon.png">
+						    </a>
+						  <li>
+						    <a href="#" class="vimeo">
+						    	<img src="img/vimeo-icon.png">
+						    </a>
+						  </li>
+						  <li>
+						    <a href="#" class="linkedin">
+						    	<img src="img/linkedin-icon.png">
+						    </a>
+						  </li>
+						</ul>
+			</section>
+
+			<section>
+					<h3>Section 3</h3>
+					<ul>
+						<li>
+							<p>Lorem</p>
+						</li>
+						<li>
+							<p>Lorem</p>
+						</li>
+						<li>
+							<p>Lorem</p>
+						</li>
+						<li>
+							<p>Lorem</p>
+						</li>
+					</ul>
+
+			</section>
+		
+		
+		</footer>
+
+
+</body>
+</html>

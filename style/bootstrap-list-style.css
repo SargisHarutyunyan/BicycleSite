@@ -1,0 +1,13 @@
+#myTable{
+     
+      margin-top: 25px;
+}
+#myTable tr th{
+	text-align: center;
+    border-bottom:3px solid black;
+
+}
+#myTable tr td{
+	text-align: center;
+    
+}
