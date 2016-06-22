@@ -1,35 +1,3 @@
-/*var adminLogin = "1234";
-     var adminPassword = "pass";
-    
-    function up(){
-     
-      
-      
-      var login = document.getElementById("login").value;
-      var password = document.getElementById("password").value;
-      
-      
-      if(login.length != 0 && password.length !=0){
-        document.getElementById("but").removeAttribute("disabled");
-      }else{
-        
-      document.getElementById("but").setAttribute("disabled", "disabled");
-      }
-      
-    }
-    function check(){
-       
-      var login = document.getElementById("login").value;
-      var password = document.getElementById("password").value;
-      
-      if(login != adminLogin && password != adminPassword){
-        var form = document.getElementById("form1");
-        form.setAttribute("action","notValid.html");
-
-      }
-     
-    }*/
-
 function upTable(){
      
       var product = document.getElementById("productInput").value;

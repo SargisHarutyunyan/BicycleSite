@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Mobile-First</title>
+    <link rel="shortcut icon" href="img/site.png">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCx8PTNnnCEi8ElNNiaqXJ3leFwpKsTwck"></script>
@@ -40,28 +41,24 @@
 		
 	
 	<section id = "first_section">
-
-			
-	
-				<img id = "big-photo" src="img/7.jpg">
-
+				<img id = "big-photo" src="img/2.jpg">
 					<div class = "small-photo">
-						<img  src="img/2.jpg" onmouseover = "mouseover1()" onMouseOut= "this.src='img/2.jpg'">
+						<img id="0" src="img/2.jpg" onmouseover = "mouseover(this)" >
 					</div>
 					<div class = "small-photo">
-						<img  src="img/3.jpg"  onmouseover = "mouseover2()"  onMouseOut= "this.src='img/3.jpg'">
+						<img id="1" src="img/3.jpg"  onmouseover = "mouseover(this)">
 					</div>
 					<div class = "small-photo">
-						<img  src="img/4.jpg" onmouseover = "mouseover3()" onMouseOut= "this.src='img/4.jpg'">
+						<img id="2"  src="img/4.jpg" onmouseover = "mouseover(this)" >
 					</div>
 					<div class = "small-photo">
-						<img  src="img/5.jpg" onmouseover = "mouseover4()" onMouseOut= "this.src='img/5.jpg'">
+						<img id="3" src="img/5.jpg" onmouseover = "mouseover(this)">
 					</div>
 					<div class = "small-photo">
-						<img src="img/6.jpg"  onmouseover = "mouseover5()" onMouseOut= "this.src='img/6.jpg'">
+						<img id="4" src="img/6.jpg"  onmouseover = "mouseover(this)" >
 					</div>
 					<div class = "small-photo">
-						<img src="img/8.jpg"  onmouseover = "mouseover6()"  onMouseOut= "this.src='img/8.jpg'">
+						<img id="5" src="img/7.jpg"  onmouseover = "mouseover(this)"  >
 					</div>
 	</section>
 
@@ -75,7 +72,7 @@
 			<p>Price: 1500$</p>
 			<img src = "http://bikeam.com/images/library/zoom/specialized-fatboy-240489-11.jpg" >
 			<input type = "number" id="inp0"  >
-			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+			<button id = "0">Ավելացնել</button>
 		</section>
 
 		<section>
@@ -83,7 +80,7 @@
 			<p>Price: 1500$</p>
 			<img src = "http://bikeam.com/images/library/zoom/specialized-fatboy-240489-1.jpg" >
 			<input type = "number" id="inp1" >
-			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+			<button id = "1">Ավելացնել</button>
 		</section>
 
 		<section>
@@ -91,7 +88,7 @@
 			<p>Price: 500$</p>
 			<img src = "http://bikeam.com/images/library/zoom/specialized-sirrus-sport-copy-236763-1.jpg">
 			<input type = "number" id="inp2" >
-			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+			<button id = "2">Ավելացնել</button>
 		</section>
 		
 		<section>
@@ -99,55 +96,55 @@
 			<p>Price: 500$</p>
 			<img src = "http://bikeam.com/images/library/zoom/specialized-sirrus-sport-	copy-236763-11.jpg">
 			<input type = "number" id="inp3" >
-			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+			<button id = "3">Ավելացնել</button>
 		</section>
 		<section>
 			<p>Cannondal Quick 5</p>
 			<p>Price: 450$</p>
 			<img src = "http://bikeam.com/images/library/zoom/cannondale-quick-5-copy-237596-11.jpg" >
 
-			<input type = "number" id="inp0"  >
-			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 
 		<section>
 			<p>Cannondale SuperSix</p>
 			<p>Price: 2500$</p>
 			<img src = "http://bikeam.com/images/library/zoom/cannondale-supersix-evo-hi-mod-team-copy-237264-1.jpg">
-			<input type = "number" id="inp1" >
-			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number" >
+			<button>Ավելացնել</button>
 		</section>
 
 		<section>
 			<p>BMC Granfondo GF01 Disc</p>
 			<p>Price: 350$</p>	
 			<img src = "http://bikeam.com/images/library/zoom/bmc-granfondo-gf01-disc-ultegra-di2-239387-13.jpg">
-			<input type = "number" id="inp2" >
-			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 		
 		<section>
 			<p>Specialized Venge Pro ViAS</p>
 			<p>Price: 8500$</p>	
 			<img src = "http://bikeam.com/images/library/zoom/specialized-venge-pro-vias-236802-1.jpg">
-			<input type = "number" id="inp3" >
-			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 		<section>
 			<p>BMW 2016 model</p>
 			<p>Price: 15500$</p>
 			<img src = "http://www.log.com.tr/wp-content/uploads/2016/03/bmw-shows-the-2016-bicycle-line-up_5-1000x562.jpg">
 
-			<input type = "number" id="inp0"  >
-			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 
 		<section>
 			<p>BMW BOOM!!!</p>
 			<p>Price: 25700$</p>
 			<img src = "http://roa.h-cdn.co/assets/cm/14/47/980x551/546b0f3d3cad5_-_bmw-mountainbike-lg.jpeg">
-			<input type = "number" id="inp1" >
-			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 
 		
@@ -163,80 +160,80 @@
 			<p>Kask Road Helmet</p>
 			<p>Price: 100$</p>
 			<img src = "http://www.wigglestatic.com/product-media/5360066738/Kask-Mojito-Road-Helmet-Road-Helmets-Black-Grey-2015-MBLGRL-1.jpg?w=1800&h=1800&a=7" >
-			<input type = "number" id="inp0"  >
-			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 
 		<section>
 			<p>Giro Synthe Helmet</p>
 			<p>Price: 100$</p>
 			<img src = "http://www.wigglestatic.com/product-media/5360103165/Giro-Synthe-Helmet-Road-Helmets-White-Yellow-2016-GIHSYN89S6-0.jpg?w=700&h=700&a=7" >
-			<input type = "number" id="inp1" >
-			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 
 		<section>
 			<p>Giro Atmos 2 Road Helmet</p>
 			<p>Price: 500$</p>
 			<img src = "http://www.wigglestatic.com/product-media/5360103425/Giro-Atmos-2-Road-Helmet-Road-Helmets-Blue-Black-2015-GIHAT21BS5.jpg?w=2000&h=2000&a=7">
-			<input type = "number" id="inp2" >
-			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 		
 		<section>
 			<p>800ml Water Bottle</p>
 			<p>Price: 5$</p>
 			<img src = "http://www.wigglestatic.com/product-media/5110000435/Pro_bottle_800ml.jpg?w=1300&h=1300&a=7">
-			<input type = "number" id="inp3" >
-			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 		<section>
 			<p>Wiggle Water Bottle 800ml</p>
 			<p>Price: 2$</p>
 			<img src = "http://www.wigglestatic.com/product-media/5360114041/Wiggle-Water-Bottle-800ml-Water-Bottles-Graphite-SS16-0142024.jpg?w=2000&h=2000&a=7" >
 
-			<input type = "number" id="inp0"  >
-			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 
 		<section>
 			<p>Garmin Forerunner 235</p>
 			<p>Price: 250$</p>
 			<img src = "http://www.wigglestatic.com/product-media/5360110727/Garmin-Forerunner-235-GPS-Run-Watch-with-Integrated-HRM-GPS-Running-Computers-Black-Grey-AW15-6.jpg?w=2000&h=2000&a=7">
-			<input type = "number" id="inp1" >
-			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 
 		<section>
 			<p>Garmin Forerunner 230</p>
 			<p>Price: 350$</p>	
 			<img src = "http://www.wigglestatic.com/product-media/5360110725/Garmin-Forerunner-230-GPS-Running-Watch-GPS-Running-Computers-Yellow-Black-AW15-010-03717-52.jpg?w=2000&h=2000&a=7">
-			<input type = "number" id="inp2" >
-			<button id = "2" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 		
 		<section>
 			<p>Topeak Joe Blow Sport II</p>
 			<p>Price: 230$</p>	
 			<img src = "http://www.wigglestatic.com/product-media/5360013205/topeak-tjb-s5-zoom.jpg?w=1000&h=1000&a=7">
-			<input type = "number" id="inp3" >
-			<button id = "3" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 		<section>
 			<p>LifeLine  High Pressure </p>
 			<p>Price: 60$</p>
 			<img src = "http://www.wigglestatic.com/product-media/5360077191/lifeline-performance-track-pump.jpg?w=2000&h=2000&a=7">
 
-			<input type = "number" id="inp0"  >
-			<button id = "0" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 
 		<section>
 			<p>Lezyne Micro Drive 400XL</p>
 			<p>Price: 49$</p>
 			<img src = "http://www.wigglestatic.com/product-media/5360107381/Micro-Strip.jpg?w=1000&h=1000&a=7">
-			<input type = "number" id="inp1" >
-			<button id = "1" onclick = "count(this)">Ավելացնել</button>
+			<input type = "number">
+			<button>Ավելացնել</button>
 		</section>
 
 		
@@ -313,26 +310,26 @@
 					<h3>Section 2</h3>
 						<ul class="social-buttons" id="social">
 						  <li>
-						    <a href="#" class="twitter">
+						    <a href="https://twitter.com/?lang=ru" class="twitter"  target="_blank">
 						    	<img src="img/twitter-icon.png">
 						    </a>
 						  </li>
 						  <li>
-						    <a href="#" class="facebook">
+						    <a href="https://www.facebook.com/" class="facebook"  target="_blank">
 						    	<img src="img/facebook-icon.png">
 						    </a>
 						  </li>
 						  <li>
-						    <a href="#" class="instagram">
+						    <a href="https://www.instagram.com/" class="instagram"  target="_blank">
 						    	<img src="img/instagram-icon.png">
 						    </a>
 						  <li>
-						    <a href="#" class="vimeo">
+						    <a href="https://vimeo.com/" class="vimeo"  target="_blank">
 						    	<img src="img/vimeo-icon.png">
 						    </a>
 						  </li>
 						  <li>
-						    <a href="#" class="linkedin">
+						    <a href="https://www.linkedin.com/" class="linkedin"  target="_blank">
 						    	<img src="img/linkedin-icon.png">
 						    </a>
 						  </li>
